@@ -4,7 +4,7 @@ var express = require("express");
 
 express()
  .get("*", function(req, res) {
-      res.send("Hello world");
+      res.send("Continuous integration and deployment lab finished by Mukhin Alexey");
  })
  .listen(80, function(err) {
     if (err) {
