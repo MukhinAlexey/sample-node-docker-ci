@@ -1,7 +1,7 @@
 #!/bin/bash
 docker push alexeymukhin/sample-node
 
-ssh mukhinalexeym@http://104.199.75.233/ << EOF
+ssh mukhinalexeym@104.199.75.233 << EOF
 docker pull alexeymukhin/sample-node:latest
 docker stop web || true
 docker rm web || true
