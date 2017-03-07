@@ -9,3 +9,5 @@ docker rmi alexeymukhin/sample-node:current || true
 docker tag alexeymukhin/sample-node:latest alexeymukhin/sample-node:current
 docker run -d --restart always --name web -p 80:80 alexeymukhin/sample-node:current
 EOF
+
+
